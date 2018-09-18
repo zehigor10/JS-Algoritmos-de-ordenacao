@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="teste2.js"></script>
+	<script src="http://chancejs.com/chance.min.js"></script>
+</head>
+<style>
+	.cabecalho {
+		background: #344f8a;
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+  }
+  body{
+	  margin: auto;
+	  background: #e0d8d84f;
+  }
+
+  h3{
+	font-family: sans-serif!important;
+    color: white!important;
+	cursor: pointer;
+  }
+
+  .cardAluno {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 3px;
+    width: 815px;
+    padding: 30px 25px 18px 16px;
+    height: 300px;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    top: 116px;
+	margin: auto;
+  }
+</style>
+<body>
+	<div class="cabecalho">
+		<h3>Inserção Direta</h3>
+	</div>
+	<div class="cardAluno">
+		<div style="display: flex">
+			<div>Aleatorio</div>
+			<div>Crescente</div>
+			<div>Decresente</div>
+		</div>
+	
+		<p>Inserção Direta</p>
+		<button type="button" onclick="insercaoDiretaAleatorio()">Aleatorio</button>
+		<button type="button" onclick="insercaoDiretaCrescente()">Crescente</button>
+		<button type="button" onclick="insercaoDiretaDecrescente()">Decresente</button>
+
+		<p>BubleSort</p>
+		<button type="button" onclick="bubleSortAleatorio()">Aleatorio</button>
+		<button type="button" onclick="bubleSortCrescente()">Crescente</button>
+		<button type="button" onclick="bubleSortDecrescente()">Decresente</button>
+	
+		<p>Seleção Direta</p>
+		<button type="button" onclick="selecaoDiretaAleatorio()">Aleatorio</button>
+		<button type="button" onclick="selecaoDiretaCrescente()">Crescente</button>
+		<button type="button" onclick="selecaoDiretaDecrescente()">Decresente</button>
+	
+	</div>
+	
+</body>
+</html>
